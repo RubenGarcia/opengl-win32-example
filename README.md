@@ -18,6 +18,11 @@ OpenGL Win32 Example is distributed in the hope that it will be useful, but WITH
 ## Installation
 In Visual Studio right click on project and select properties. Add "OpenGL32.lib;" to additional dependencies.
 
+Or using the command line:
+```
+cl /DUNICODE /D_UNICODE Main.cpp user32.lib opengl32.lib gdi32.lib
+```
+
 ## References
 - <https://git-scm.com/book/en/v2/Getting-Started-Installing-Git>
 - <https://docs.microsoft.com/en-us/windows/desktop/learnwin32/closing-the-window>
